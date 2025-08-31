@@ -1,0 +1,29 @@
+{
+  "name": "ts-handbook-org",
+  "version": "1.0.0",
+  "description": "TypeScript Handbook",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogo-types/ts-handbook-org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gogo-types/ts-handbook-org/issues"
+  },
+  "homepage": "https://github.com/gogo-types/ts-handbook-org#readme",
+  "dependencies": {
+    "vuepress": "^2.0.0-rc.24"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.24",
+    "@vuepress/theme-default": "^2.0.0-rc.112"
+  }
+}
