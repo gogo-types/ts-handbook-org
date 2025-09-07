@@ -22,7 +22,9 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build VuePress site
-        run: npm run docs:build
+        run: |
+          npm run docs:build
+          ls -R docs/.vuepress/dist
 
       - name: Copy 404.html for SPA routing
         run: cp docs/.vuepress/dist/index.html docs/.vuepress/dist/404.html

@@ -151,7 +151,8 @@ docs/
 assets/
 
 # dist만 Git에 포함
-!dist/
+docs/.vuepress/dist
+!docs/.vuepress/dist/step/
 
 # TODO: where does this rule come from?
 test/
