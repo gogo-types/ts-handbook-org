@@ -101,7 +101,6 @@ out
 # public
 
 # vuepress build output
-.vuepress/dist
 
 # vuepress v2.x temp and cache directory
 .temp
@@ -145,9 +144,7 @@ out
 #
 # Recommended template: Node.gitignore
 
-# 빌드 산출물 무시
-docs/
-assets/
+ 
 
 # dist만 Git에 포함
 
