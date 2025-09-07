@@ -146,8 +146,12 @@ dist
 #
 # Recommended template: Node.gitignore
 
-# TODO: where does this rule come from?
-docs/_book
+# 빌드 산출물 무시
+docs/
+assets/
+
+# dist만 Git에 포함
+!dist/
 
 # TODO: where does this rule come from?
 test/
