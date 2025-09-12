@@ -24,6 +24,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.24",
     "@vuepress/bundler-webpack": "^2.0.0-rc.25",
+    "@vuepress/plugin-search": "^2.0.0-rc.112",
     "@vuepress/theme-default": "^2.0.0-rc.112",
     "gh-pages": "^6.3.0",
     "ts-node": "^10.9.2",

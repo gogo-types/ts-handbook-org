@@ -2,6 +2,7 @@
 import { defineUserConfig } from "vuepress";
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defaultTheme } from "@vuepress/theme-default"; // <- default가 아님
+import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
   title: "TypeScript Handbook",
@@ -27,7 +28,7 @@ export default defineUserConfig({
         {
           text: "기본 타입",
           collapsible: true,
-          children: ["", "default", "interface", "functions"],
+          children: ["", "default", "interface", "functions", "literal"],
         },
       ],
       "/step/functions/": [
@@ -39,4 +40,14 @@ export default defineUserConfig({
       ],
     },
   }),
+  plugins: [
+    searchPlugin({
+      locales: {
+        "/": {
+          placeholder: "검색",
+        },
+      },
+      maxSuggestions: 10, // 검색 추천 갯수
+    }),
+  ],
 });
