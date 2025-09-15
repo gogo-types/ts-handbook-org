@@ -28,7 +28,14 @@ export default defineUserConfig({
         {
           text: "기본 타입",
           collapsible: true,
-          children: ["", "default", "interface", "functions", "literal"],
+          children: [
+            "",
+            "default",
+            "interface",
+            "functions",
+            "literal",
+            "union",
+          ],
         },
       ],
       "/step/functions/": [
