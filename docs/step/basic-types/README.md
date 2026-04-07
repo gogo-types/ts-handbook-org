@@ -10,17 +10,15 @@
 
 타입 스크립트는 대규모 애플리케이션 환경에서 발생할 수 있는 에러를 미리 방지해,개발 생산성을 높이기 위해 만들어졌으며 브라우저나 Node.js에서는 직접 실행되지 않고, 오직 자바스크립트로 컴파일(트랜스파일)되어 실행됩니다.
 
-# ![이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbNWhBZ%2FbtsMa5n4Sur%2FAAAAAAAAAAAAAAAAAAAAABj3Fdw_aipeo4yIsUpmMKijBl643ZflGVBPP6hmR60x%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1759244399%26allow_ip%3D%26allow_referer%3D%26signature%3D8vK9aaA95%252F2p7rZdXyE1RGX49d8%253D)
+# ![이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbNWhBZ%2FbtsMa5n4Sur%2FAAAAAAAAAAAAAAAAAAAAABj3Fdw_aipeo4yIsUpmMKijBl643ZflGVBPP6hmR60x%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3D2oKHnPDA1Yz6HkQskSHZIhAhzCg%253D)
 
 타입 스크립트와 자바스크립트의 차이점은 타입 시스템, 에러 검출 시점, 개발 생산성, 학습곡선이 있습니다.
 
 1. **타입 시스템**
-
    - **Typescript**: 정적 타입 시스템 지원(변수,함수,객체 등, 타입을 명시)
    - **Javascript**: 동적 타입시스템(런타임에서 타입이 결정)
 
 2. **에러 검출 시점**
-
    - **Typescript**: 컴파일 단계에서 타입 관련 에러를 미리 발견할 수 있다.
    - **Javascript**: 런타임에서 에러가 발생할 가능성이 높음
 

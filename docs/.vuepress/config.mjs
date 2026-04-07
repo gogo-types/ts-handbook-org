@@ -35,6 +35,7 @@ export default defineUserConfig({
             "functions",
             "literal",
             "union",
+            "class",
           ],
         },
       ],
